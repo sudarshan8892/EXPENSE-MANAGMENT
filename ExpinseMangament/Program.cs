@@ -1,7 +1,13 @@
+using ExpinseMangament.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+var connectionString = builder.Configuration.GetConnectionString("DontTouch");
+builder.Services.AddDbContext<EXPENSE_MANAGEMENTContext>(c =>
+c.UseSqlServer(connectionString));
 
 var app = builder.Build();
 
