@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpinseMangament", "ExpinseMangament\ExpinseMangament.csproj", "{09CA5EE9-D409-4A54-A483-9E67C56B2DCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09CA5EE9-D409-4A54-A483-9E67C56B2DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09CA5EE9-D409-4A54-A483-9E67C56B2DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09CA5EE9-D409-4A54-A483-9E67C56B2DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09CA5EE9-D409-4A54-A483-9E67C56B2DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AECE9F8-1662-447C-BCED-EB2E363CE7F7}
+	EndGlobalSection
+EndGlobal
