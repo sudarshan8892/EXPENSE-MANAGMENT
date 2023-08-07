@@ -22,7 +22,7 @@ namespace ExpinseMangament.Models
         [StringLength(50)]
         public string? Icon { get; set; }
         [StringLength(50)]
-        public string? Type { get; set; }
+        public string? Type { get; set; } = "Expense";
 
         [InverseProperty("Category")]
         public virtual ICollection<Transaction> Transactions { get; set; }

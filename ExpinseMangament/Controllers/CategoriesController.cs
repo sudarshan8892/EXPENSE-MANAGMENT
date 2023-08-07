@@ -47,7 +47,7 @@ namespace ExpinseMangament.Controllers
         // GET: Categories/Create
         public IActionResult Create()
         {
-            return View();
+            return View( new Category());
         }
 
         // POST: Categories/Create
@@ -55,7 +55,7 @@ namespace ExpinseMangament.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,Icon,Type")] Category category)
+        public async Task<IActionResult> Create( Category category)
         {
             if (ModelState.IsValid)
             {
@@ -63,7 +63,7 @@ namespace ExpinseMangament.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(category);
+            return View( category);
         }
 
         // GET: Categories/Edit/5
