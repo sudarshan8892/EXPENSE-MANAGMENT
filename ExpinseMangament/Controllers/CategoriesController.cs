@@ -150,7 +150,7 @@ namespace ExpinseMangament.Controllers
         //    return View(category);
         //}
 
-        // POST: Categories/Delete/5
+       // POST: Categories/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

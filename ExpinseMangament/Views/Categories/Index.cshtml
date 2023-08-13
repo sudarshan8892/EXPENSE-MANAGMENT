@@ -42,10 +42,10 @@
                 <a class="btn btn-sm a-btn-action" href="/Categories/AddOrUpdate/${Id}">
                     <i class="fa-solid fa-pen fa-lg"></i>
                 </a>
-               <form  action="/Categories/Delete/${Id}" method="post">
+               <form  action="/Categories/Delete/2" method="post">
                    @Html.AntiForgeryToken()
-                  <button type="submit" class="btn btn-sm btn-link a-btn-action "
-                      onclick="return confirm(&quot; are you  sure &quot;)">
+                  <button type="submit" class="btn btn-sm btn-link a-btn-action">
+                     
                     <i class="fa-solid fa-trash-can fa-lg text-danger"></i>
                   </button>
                 </form>
