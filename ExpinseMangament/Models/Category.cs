@@ -26,5 +26,21 @@ namespace ExpinseMangament.Models
 
         [InverseProperty("Category")]
         public virtual ICollection<Transaction> Transactions { get; set; }
+
+
+       // [NotMapped]
+        //public string? IconTitle
+        //{
+        //    get
+        //    {
+        //        return this.Icon + "  "+ this.Title;
+
+        //    }
+
+
+        //}   
+
+       
+
     }
 }

@@ -18,3 +18,20 @@ body {
   background-color:#12161d;
   color:#fff;
 }
+
+.widget{
+    background-color:#1a222b;
+    border-radius :1rem;
+       
+}
+
+/*button*/
+.btn :focus,.btn:active{
+    outline:none !important;
+       box-shadow:none;
+}
+.a-btn-action, .a-btn-action:hover
+{
+    text-decoration:none;
+    color:inherit;
+}
