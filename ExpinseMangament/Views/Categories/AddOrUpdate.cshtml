@@ -1,10 +1,10 @@
 ﻿@model ExpinseMangament.Models.Category
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["pageTitel"] = Model.Id == 0? "create New Category" : "Edit Category";
 }
 
-<h1>Create</h1>
+
 <div class="row">
     <div class="col-md-7">
         <div class="widget p-5">
